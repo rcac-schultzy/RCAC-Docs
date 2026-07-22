@@ -52,7 +52,7 @@ Anvil accepts standard SSH connections with public keys-based authentication to 
 
 !!! note "Note about using SSH on Anvil"
     * Your Anvil username is not the same as your ACCESS username (although it is derived from it). Anvil usernames look like `x-ACCESSusername` or similar, starting with an `x-`.
-    * Password-based authentication is not supported on Anvil (in favor of [SSH keys](#ssh-keys)). There is no "Anvil password", and your ACCESS password will not be accepted by Anvil's SSH either. SSH keys can be set up from the Open OnDemand interface on Anvil [ondemand.anvil.rcac.purdue.edu](https://$ondemand.anvil.rcac.purdue.edu). Please follow the steps in Setting up SSH keys to add your SSH key on Anvil.
+    * Password-based authentication is not supported on Anvil (in favor of [SSH keys](#ssh-keys)). There is no "Anvil password", and your ACCESS password will not be accepted by Anvil's SSH either. SSH keys can be set up from the Open OnDemand interface on Anvil [ondemand.anvil.rcac.purdue.edu](https://ondemand.anvil.rcac.purdue.edu). Please follow the steps in Setting up SSH keys to add your SSH key on Anvil.
     * When reporting SSH problems to the help desk, please execute the ssh command with the -vvv option and include the verbose output in your problem description.
 
 
